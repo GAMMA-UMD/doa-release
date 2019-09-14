@@ -20,7 +20,7 @@ In this repo, we attach several models under `models` folder. These are:
 | cartesian_base_model.h5              | Initial (untrained) regression model                                                           |     ACN    |
 | cartesian_trained_model.h5           | Trained regression model                                                                       | ACN        |
 | categorical_trained_model.h5         | Trained classification model                                                                   | ACN        |
-| Perotin_categorical_trained_model.h5 | Baseline classification model by [Perontin et al.](https://hal.inria.fr/hal-01840453/document) | FuMa       |
+| Perotin_categorical_trained_model.h5 | Baseline classification model by [Perotin et al.](https://hal.inria.fr/hal-01840453/document) | FuMa       |
 
 Note that `categorical_trained_model.h5` is trained from `Perotin_categorical_trained_model.h5`, which is not different from training from scratch because their model uses FuMa convention that generates very different features from ACN convention.
 
