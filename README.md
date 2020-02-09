@@ -48,11 +48,14 @@ Note that `categorical_trained_model.h5` is trained from `Perotin_categorical_tr
 ## Citation
 If you use our codes or models, please consider citing:
 ```
-@inproceedings{tang2019regression,
-  title={Regression and Classification for Direction-of-Arrival Estimation with Convolutional Recurrent Neural Networks},
-  author={Tang, Zhenyu and Kanu, John.D and Hogan, Kevin and Manocha, Dinesh},
-  booktitle={Interspeech},
-  year={2019},
+@inproceedings{Tang2019,
+  author={Zhenyu Tang and John D. Kanu and Kevin Hogan and Dinesh Manocha},
+  title={{Regression and Classification for Direction-of-Arrival Estimation with Convolutional Recurrent Neural Networks}},
+  year=2019,
+  booktitle={Proc. Interspeech 2019},
+  pages={654--658},
+  doi={10.21437/Interspeech.2019-1111},
+  url={http://dx.doi.org/10.21437/Interspeech.2019-1111}
 }
 ```
 We also recommend citing the work of Perontin et al. if you also use their model:
